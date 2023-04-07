@@ -81,11 +81,11 @@
 // }
 
 // Question 7
-// let patt = ""
-// for(i=1; i <= 5; i++){
-//     for(j=0; j < i ; j++){
-//         patt += "*"
-//     }
-//     patt += "\n"
-// }
-// console.log(patt)
+let patt = ""
+for(i=1; i <= 5; i++){
+   for(j=0; j < i ; j++){
+        patt += "*"
+     }
+     patt += "\n"
+ }
+ console.log(patt)
